@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,5 +13,6 @@ namespace Domain
         public string Bio { get; set; }
 
         public ICollection<ActivityAttendee> Activities { get; set; }
+        public ICollection<Photo> Photos { get; set; }
     }
 }
